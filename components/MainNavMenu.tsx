@@ -18,7 +18,7 @@ export function MainNavMenu() {
           <li>
             <a href="">Testimonials</a>
           </li>
-          <li>
+          {/* <li>
             <details>
               <summary>Parent</summary>
               <ul class="bg-base-100 rounded-t-none p-2">
@@ -30,9 +30,9 @@ export function MainNavMenu() {
                 </li>
               </ul>
             </details>
-          </li>
+          </li> */}
           <li>
-            <a>Contact Us</a>
+            <a href="/contact">Contact Us</a>
           </li>
         </ul>
       </div>
