@@ -8,7 +8,7 @@ export default define.page(function App({ Component }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>play with DaisyUI</title>
       </head>
-      <body>
+      <body class="flex flex-col min-h-screen">
         <Component />
       </body>
     </html>

@@ -12,7 +12,7 @@ export default define.page(function Home(ctx) {
         <Hero />
       </header>
 
-      <aside class="grid-sidebar">
+      <aside class="grid-sidebar ps-5">
         <h5>left sidebar</h5>
         <p>Menu goes here</p>
         {/* <ProductMenu menu="Map" path="/map"></ProductMenu> */}
@@ -22,7 +22,7 @@ export default define.page(function Home(ctx) {
         <FrontMatter></FrontMatter>
       </main>
 
-      <aside class="grid-panel">
+      <aside class="grid-panel ps-5 pe-5">
         <h5>right sidebar</h5>
 
         <article>
