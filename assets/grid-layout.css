@@ -21,7 +21,6 @@
   grid-area: panel;
 }
 .grid-footer {
-  background-color: gray;
   grid-area: footer;
 }
 
