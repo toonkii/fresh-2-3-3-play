@@ -13,7 +13,10 @@ export function MainNavMenu() {
             <a>Gallery</a>
           </li>
           <li>
-            <a href="project">Projects</a>
+            <a href="/project">Projects</a>
+          </li>
+          <li>
+            <a href="">Testimonials</a>
           </li>
           <li>
             <details>
