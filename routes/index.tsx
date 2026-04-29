@@ -7,7 +7,7 @@ export default define.page(function Home(ctx) {
   console.log("ctx", ctx.state);
 
   return (
-    <div class="grid-container">
+    <div class="grid-container p-10">
       <header class="grid-header">
         <Hero />
       </header>
