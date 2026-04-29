@@ -1,15 +1,100 @@
 @import "tailwindcss";
 
-.fresh-gradient {
-  background-color: rgb(134, 239, 172);
-  background-image: linear-gradient(
-    to right bottom,
-    rgb(219, 234, 254),
-    rgb(187, 247, 208),
-    rgb(254, 249, 195)
-  );
+/*
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+@theme {
+  --default-font-family: 'Shadows Into Light', sans-serif;
 }
+*/
 
 @plugin "daisyui"{
-   themes: all;
- }
+  themes: all;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+
+}
+
+body {} 
+
+a {
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+}
+
+.top-menu {
+  background-color: var(--pico-background-color);
+  color: var(--pico-color);
+  padding: 0;
+  padding-right: 20px;
+}
+
+.menu-title {
+}
+
+.menu-items li {
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url("/img/server-room.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr 4fr 1fr;
+  grid-template-areas:
+    "one two three four five"
+    "six seven eight nine ten";
+  grid-template-rows: 25vh;
+}
+
+.hero-first-block {
+  grid-area: two;
+}
+
+.hero-first-block h3 {
+  color: paleturquoise;
+}
+
+.hero-first-block p {
+  color: orange;
+}
+
+.hero-second-block {
+  grid-area: nine;
+}
+
+.hero-second-block a {
+  color: aqua;
+}
+
+.hero-second-block p {
+  color: white;
+}
+
+.btn-spacing-right {
+  margin-right: 20px;
+}
+
+#map {
+  height: 500px;
+}
+
+.hero-heading {
+  padding-top: 10%;
+}

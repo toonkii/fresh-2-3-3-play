@@ -1,33 +1,69 @@
-import { useSignal } from "@preact/signals";
-import { Head } from "fresh/runtime";
+// import { Head } from "fresh/runtime";
 import { define } from "../utils.ts";
-import Counter from "../islands/Counter.tsx";
+import { Hero } from "../components/Hero.tsx";
+import { FrontMatter } from "../components/Frontmatter.tsx";
 
 export default define.page(function Home(ctx) {
-  const count = useSignal(3);
-
-  console.log("Shared value " + ctx.state.shared);
+  console.log("ctx", ctx.state);
 
   return (
-    <div class="px-4 py-8 mx-auto fresh-gradient min-h-screen">
-      <Head>
-        <title>Fresh counter</title>
-      </Head>
-      <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-        <img
-          class="my-6"
-          src="/logo.svg"
-          width="128"
-          height="128"
-          alt="the Fresh logo: a sliced lemon dripping with juice"
-        />
-        <h1 class="text-4xl font-bold">Welcome to Fresh</h1>
-        <p class="my-4">
-          Try updating this message in the
-          <code class="mx-2">./routes/index.tsx</code> file, and refresh.
-        </p>
-        <Counter count={count} />
-      </div>
+    <div class="grid-container">
+      <header class="grid-header">
+        <Hero />
+      </header>
+
+      <aside class="grid-sidebar">
+        <h5>left sidebar</h5>
+        <p>Menu goes here</p>
+        {/* <ProductMenu menu="Map" path="/map"></ProductMenu> */}
+      </aside>
+
+      <main class="grid-content">
+        <FrontMatter></FrontMatter>
+      </main>
+
+      <aside class="grid-panel">
+        <h5>right sidebar</h5>
+
+        <article>
+          <h6>Cats</h6>
+          <img src="/img/pexels-cats.jpg"></img>
+        </article>
+
+        <article>
+          <h6>Card</h6>
+          <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem minus
+          cupiditate dolores ducimus atque asperiores molestias id, distinctio
+          blanditiis doloribus neque provident numquam a quasi rem quod
+          voluptates! Totam, culpa!</p>
+        </article>
+      </aside>
+
+      <footer class="grid-footer">
+        <h5>footer</h5>
+        <div class="grid">
+          <div></div>
+          <div>
+            <p>One</p>
+            <p>One</p>
+          </div>
+          <div>Two</div>
+          <div>Three</div>
+          <div>
+            <a href="/about">about</a>
+          </div>
+          <div>
+            <a href="https://fresh.deno.dev">
+              <img
+                width="197"
+                height="37"
+                src="https://fresh.deno.dev/fresh-badge-dark.svg"
+                alt="Made with Fresh"
+              />
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 });
