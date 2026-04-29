@@ -10,7 +10,6 @@ export default define.page(function Home(ctx) {
   return (
     <div class="grid-container">
       <header class="grid-header">
-        <MainNavMenu />
         <Hero />
       </header>
 

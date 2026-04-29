@@ -5,7 +5,7 @@
   grid-template-areas:
     "header  header header"
     "sidebar main   panel"
-    "unused  footer footer";
+    "footer  footer footer";
 }
 .grid-header {
   grid-area: header;
