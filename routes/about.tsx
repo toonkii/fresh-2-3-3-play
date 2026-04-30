@@ -1,9 +1,12 @@
+import { Footer } from "@/components/Footer.tsx";
 import { define } from "../utils.ts";
 
 export default define.page(function AboutUsPage(ctx) {
   return (
     <div>
-      <h1  class="text-2xl/7 font-bold sm:truncate sm:text-3xl sm:tracking-tight">About Us</h1>
+      <h1 class="text-2xl/7 font-bold sm:truncate sm:text-3xl sm:tracking-tight">
+        About Us
+      </h1>
 
       <div class="about-container">
         <div class="about-image">
@@ -56,5 +59,26 @@ export default define.page(function AboutUsPage(ctx) {
           </p>
         </div>
       </div>
+
+      <div>
+        <button class="btn btn-primary m-4" onclick="my_modal_1.showModal()">
+          open modal
+        </button>
+
+        <dialog id="my_modal_1" class="modal">
+          <div class="modal-box">
+            <h3 class="text-lg font-bold">Hello!</h3>
+            <p class="py-4">Press ESC key or click the button below to close</p>
+            <div class="modal-action">
+              <form method="dialog">
+                <button class="btn">Close</button>
+              </form>
+            </div>
+          </div>
+        </dialog>
+      </div>
+
+      <Footer />
     </div>
-)});
+  );
+});
