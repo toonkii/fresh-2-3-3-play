@@ -10,7 +10,13 @@ export function MainNavMenu() {
             <a href="/">Home</a>
           </li>
           <li>
+            <a href="/typography">Typography</a>
+          </li>
+          <li>
             <a href="/gallery">Gallery</a>
+          </li>
+          <li>
+            <a href="/blendful">Blendful</a>
           </li>
           <li>
             <a href="/project">Projects</a>

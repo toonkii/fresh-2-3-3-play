@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Pacifico&family=Shadows+Into+Light&display=swap');
+
 @import "tailwindcss";
-
-/*
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
-@theme {
-  --default-font-family: 'Shadows Into Light', sans-serif;
-}
-*/
 
 @plugin "daisyui"{
   themes: all;
+}
+
+.font-paci {
+  font-family: "Pacifico";
+}
+
+.font-chewy {
+  font-family: "Chewy";
 }
 
 * {
