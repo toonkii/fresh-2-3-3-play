@@ -13,6 +13,9 @@ export function MainNavMenu() {
             <a href="/typography">Typography</a>
           </li>
           <li>
+            <a href="/color">Colour</a>
+          </li>
+          <li>
             <a href="/gallery">Gallery</a>
           </li>
           <li>

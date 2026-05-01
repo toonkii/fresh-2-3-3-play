@@ -1,0 +1,64 @@
+import { define } from "../utils.ts";
+
+export default define.page(function ColoursPage(_) {
+  return (
+    <>
+      <h1 class="text-2xl/7 font-bold sm:truncate sm:text-3xl sm:tracking-tight">
+        Colours
+      </h1>
+
+      {
+        /* <!--COLOR-->
+    <!-- Format:   html_control-color_type-shade/transparency -->
+    <!--Typograhpy (Text, Text Decoration), Background (Background, Gradient),Border(Border, Offset, Ring, Outline, Divide)
+        Effect (Box Shadow), Interactivity (Caret, Accent Color), SVG(Stroke, Fill) --> */
+      }
+
+      {
+        /* <!--COLORS:
+slate, gray,zinc,neutral,stone
+red,orange,amber,yelow
+lime,green,emerald,teal
+cyan,sky,blue,indigo,viole,purple,
+fuchsia,pink,rose
+--> */
+      }
+      {/* <!-- 50 -950 --> */}
+      {/* <div class="text-3xl mb-5 font-bold underline">COLOR</div> */}
+
+      <div class="text-2xl text-emerald-800">Lorem ipsum dolor sit amet.</div>
+      <div class="text-2xl text-yellow-500">Yellow is what we want to see</div>
+
+      {/* <!-- Background--> */}
+
+      <div class="text-2xl bg-blue-400">Lorem ipsum dolor sit amet.</div>
+      <div class="text-2xl bg-rose-400">Lorem ipsum dolor sit amet.</div>
+      <div class="text-2xl bg-amber-400">Lorem ipsum dolor sit amet.</div>
+      <div class="text-2xl bg-amber-800 text-blue-50">
+        Lorem ipsum dolor sit amet.
+      </div>
+      <div class="text-2xl bg-blue-600 text-white">Lorem ipsum dolor sit.</div>
+      <div class="text-2xl bg-blue-100 text-black">
+        Lorem ipsum dolor sit amet.
+      </div>
+
+      <div class="text-3xl bg-indigo-500/50">Lorem ipsum dolor sit amet.</div>
+      <div class="text-3xl bg-indigo-500">Lorem ipsum dolor sit amet.</div>
+      <div class="text-3xl text-tahiti">Lorem ipsum dolor sit.</div>
+      <div class="text-3xl bg-tahiti">Lorem, ipsum dolor.</div>
+      <div class="text-3xl text-blush-100">Lorem ipsum dolor sit amet.</div>
+      <div class="text-3xl text-blush-300">Lorem ipsum dolor sit amet.</div>
+      <div class="text-3xl text-blush-500">Lorem ipsum dolor sit amet.</div>
+      <div class="text-3xl bg-blush-300">Lorem ipsum dolor sit.</div>
+      <div class="text-3xl bg-blush-100 border-4 border-red-500/70">
+        Lorem ipsum dolor sit.
+      </div>
+      <div class="text-3xl bg-blush-500 text-blush-100">
+        Lorem ipsum dolor sit.
+      </div>
+      <div class="text-3xl text-[#1a6b3e] bg-[#f7b536] ">
+        Lorem ipsum dolor sit amet.
+      </div>
+    </>
+  );
+});
