@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Pacifico&family=Shadows+Into+Light&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Pacifico&family=Shadows+Into+Light&display=swap");
 
 @import "tailwindcss";
 
-@plugin "daisyui"{
+@plugin "daisyui" {
   themes: all;
 }
 
@@ -19,11 +19,9 @@
   box-sizing: border-box;
 }
 
-:root {
+:root {}
 
-}
-
-body {} 
+body {}
 
 a {
   cursor: pointer;
@@ -40,8 +38,7 @@ ul li {
   padding-right: 20px;
 }
 
-.menu-title {
-}
+.menu-title {}
 
 .menu-items li {
   text-decoration: none;

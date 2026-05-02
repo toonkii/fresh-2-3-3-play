@@ -11,7 +11,6 @@ export function Button(props: ButtonProps) {
   return (
     <button
       className="btn btn-dash btn-primary"
-      // className="btn btn-dash btn-success"
       {...props}
     />
   );
