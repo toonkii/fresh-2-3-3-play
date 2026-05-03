@@ -8,7 +8,7 @@ export default define.page(function App({ Component }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>play with DaisyUI</title>
       </head>
-      <body class="container mx-auto h-screen bg-white">
+      <body class="container mx-auto h-screen">
         <Component />
       </body>
     </html>
