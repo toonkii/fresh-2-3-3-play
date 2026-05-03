@@ -10,6 +10,9 @@ export function MainNavMenu() {
             <a href="/">Home</a>
           </li>
           <li>
+            <a href="/landing">Landing</a>
+          </li>
+          <li>
             <a href="/typography">Typography</a>
           </li>
           <li>
