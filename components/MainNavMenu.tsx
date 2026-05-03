@@ -19,6 +19,9 @@ export function MainNavMenu() {
             <a href="/color">Colour</a>
           </li>
           <li>
+            <a href="/table">Table</a>
+          </li>
+          <li>
             <a href="/gallery">Gallery</a>
           </li>
           <li>
