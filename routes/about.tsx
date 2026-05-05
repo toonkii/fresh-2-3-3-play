@@ -15,6 +15,11 @@ export default define.page(function AboutUsPage(ctx) {
         </div>
 
         <div class="about-text">
+          
+          {/* <button class="btn btn-primary m-4" >
+            Dark Theme
+          </button> */}
+
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa
             eaque minus veritatis sed voluptas unde. Expedita ab aliquam minus
