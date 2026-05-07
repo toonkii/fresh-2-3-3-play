@@ -76,6 +76,7 @@ export default define.page(async function AboutUsPage(ctx) {
           <div class="modal-box">
             <h3 class="text-lg font-bold">Hello!</h3>
             <p class="py-4">Press ESC key or click the button below to close</p>
+            <p class="py-4">Cat URL: {cat.url}</p>
             <div class="modal-action">
               <form method="dialog">
                 <button class="btn">Close</button>
