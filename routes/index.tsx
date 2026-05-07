@@ -4,8 +4,9 @@ import { Hero } from "@/components/Hero.tsx";
 import { FrontMatter } from "@/components/Frontmatter.tsx";
 import { Footer } from "@/components/Footer.tsx";
 
-export default define.page(function Home(ctx) {
+export default define.page(async function Home(ctx) {
   // console.log("ctx", ctx.state);
+  const cat: Response = await fetch("https://api.ai-cats.net/v1/cat");
 
   return (
     <div class="grid-container">
@@ -32,7 +33,8 @@ export default define.page(function Home(ctx) {
 
         <article>
           <h6>Cats</h6>
-          <img src="/img/pexels-cats.jpg"></img>
+          {/* <img src="/img/pexels-cats.jpg"></img> */}
+          <img class="size-90" src={cat.url}></img>
         </article>
 
         <article>
