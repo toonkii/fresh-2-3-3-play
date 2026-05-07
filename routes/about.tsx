@@ -1,7 +1,9 @@
 import { Footer } from "@/components/Footer.tsx";
 import { define } from "../utils.ts";
 
-export default define.page(function AboutUsPage(ctx) {
+export default define.page(async function AboutUsPage(ctx) {
+  const cat: Response = await fetch('https://api.ai-cats.net/v1/cat');
+  console.log('cat', cat);
   return (
     <div>
       <h1 class="text-2xl/7 font-bold sm:truncate sm:text-3xl sm:tracking-tight">
@@ -10,8 +12,8 @@ export default define.page(function AboutUsPage(ctx) {
 
       <div class="about-container">
         <div class="about-image">
-          <img src="https://res.cloudinary.com/cyber-sea-inc/image/upload/v1731247966/samples/coffee.jpg">
-          </img>
+          {/* <img src="https://res.cloudinary.com/cyber-sea-inc/image/upload/v1731247966/samples/coffee.jpg"> */}
+          <img src={cat.url}></img>
         </div>
 
         <div class="about-text">
