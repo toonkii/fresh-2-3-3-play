@@ -3,7 +3,7 @@ import { define } from "../utils.ts";
 
 export default define.page(async function AboutUsPage(ctx) {
   const cat: Response = await fetch('https://api.ai-cats.net/v1/cat');
-  console.log('cat', cat);
+  // console.log('cat', cat);
   return (
     <div>
       <h1 class="text-2xl/7 font-bold sm:truncate sm:text-3xl sm:tracking-tight">
