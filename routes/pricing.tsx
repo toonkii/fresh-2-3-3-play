@@ -10,14 +10,16 @@ export default define.page(function PricingFrontPage(_ctx) {
               Pricing
             </h1>
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
-              Pricing schemes.
+              Our pricing models.
             </p>
-            {/* <div class="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6">
+            {
+              /* <div class="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6">
               <button class="py-1 px-4 bg-indigo-500 text-white focus:outline-none">
                 Monthly
               </button>
               <button class="py-1 px-4 focus:outline-none">Annually</button>
-            </div> */}
+            </div> */
+            }
           </div>
 
           <div class="flex flex-wrap -m-4">
@@ -168,7 +170,7 @@ export default define.page(function PricingFrontPage(_ctx) {
                   </span>Troubleshooting Faults
                 </p>
                 <button class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">
-                  Button
+                  <a href="/landing">Landing</a>
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -242,7 +244,8 @@ export default define.page(function PricingFrontPage(_ctx) {
                     </svg>
                   </span>Higher priority
                 </p>
-                {/* <p class="flex items-center text-gray-600 mb-2">
+                {
+                  /* <p class="flex items-center text-gray-600 mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
@@ -256,8 +259,10 @@ export default define.page(function PricingFrontPage(_ctx) {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>Vexillologist pitchfork
-                </p> */}
-                {/* <p class="flex items-center text-gray-600 mb-6">
+                </p> */
+                }
+                {
+                  /* <p class="flex items-center text-gray-600 mb-6">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
@@ -271,7 +276,8 @@ export default define.page(function PricingFrontPage(_ctx) {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>Mixtape chillwave tumeric
-                </p> */}
+                </p> */
+                }
                 <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                   Button
                   <svg
@@ -332,7 +338,8 @@ export default define.page(function PricingFrontPage(_ctx) {
                     </svg>
                   </span>Postpone ongoing work
                 </p>
-                {/* <p class="flex items-center text-gray-600 mb-2">
+                {
+                  /* <p class="flex items-center text-gray-600 mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
@@ -346,8 +353,10 @@ export default define.page(function PricingFrontPage(_ctx) {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>?
-                </p> */}
-                {/* <p class="flex items-center text-gray-600 mb-2">
+                </p> */
+                }
+                {
+                  /* <p class="flex items-center text-gray-600 mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                     <svg
                       fill="none"
@@ -376,9 +385,10 @@ export default define.page(function PricingFrontPage(_ctx) {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>Mixtape chillwave tumeric
-                </p> */}
+                </p> */
+                }
                 <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
-                  Button
+                  <a href="/">Button</a>
                   <svg
                     fill="none"
                     stroke="currentColor"
