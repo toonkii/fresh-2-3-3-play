@@ -13,7 +13,9 @@ export function MainNavMenu() {
             <a href="/landing">Landing</a>
           </li>
           <li>
-            <a href="/sample">Sample</a>
+            <a href="/sample">
+              Sample Landing
+            </a>
           </li>
           <li>
             <a href="/pricing">Pricing</a>
