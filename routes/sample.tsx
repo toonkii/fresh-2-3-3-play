@@ -1,13 +1,14 @@
 import { define } from "../utils.ts";
 
-export default define.page(function SampleFrontPage(_) {
+export default define.page(async function SampleFrontPage(_ctx) {
+  const cat: Response = await fetch("https://api.ai-cats.net/v1/cat");
   return (
     <>
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              Knausgaard typewriter readymade marfa
+              Blurb on Sidereal 365 Inc.
             </h1>
             <p class="mb-8 leading-relaxed">
               Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid
@@ -73,7 +74,8 @@ export default define.page(function SampleFrontPage(_) {
             <img
               class="object-cover object-center rounded"
               alt="hero"
-              src="https://dummyimage.com/720x600"
+            //   src="https://dummyimage.com/720x600"
+              src={cat.url}
             />
           </div>
         </div>
