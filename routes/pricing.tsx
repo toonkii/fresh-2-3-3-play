@@ -76,7 +76,7 @@ export default define.page(function PricingFrontPage(_ctx) {
                     </svg>
                   </span>Payment on completed milestones
                 </p>
-                <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
+                {/* <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                   Button
                   <svg
                     fill="none"
@@ -92,7 +92,7 @@ export default define.page(function PricingFrontPage(_ctx) {
                 </button>
                 <p class="text-xs text-gray-500 mt-3">
                   Literally you probably haven't heard of them jean shorts.
-                </p>
+                </p> */}
               </div>
             </div>
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
@@ -169,7 +169,7 @@ export default define.page(function PricingFrontPage(_ctx) {
                     </svg>
                   </span>Troubleshooting Faults
                 </p>
-                <button class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">
+                {/* <button class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">
                   <a href="/landing">Landing</a>
                   <svg
                     fill="none"
@@ -185,7 +185,7 @@ export default define.page(function PricingFrontPage(_ctx) {
                 </button>
                 <p class="text-xs text-gray-500 mt-3">
                   Literally you probably haven't heard of them jean shorts.
-                </p>
+                </p> */}
               </div>
             </div>
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
@@ -278,7 +278,7 @@ export default define.page(function PricingFrontPage(_ctx) {
                   </span>Mixtape chillwave tumeric
                 </p> */
                 }
-                <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
+                {/* <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                   Button
                   <svg
                     fill="none"
@@ -294,7 +294,7 @@ export default define.page(function PricingFrontPage(_ctx) {
                 </button>
                 <p class="text-xs text-gray-500 mt-3">
                   Literally you probably haven't heard of them jean shorts.
-                </p>
+                </p> */}
               </div>
             </div>
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
@@ -387,7 +387,7 @@ export default define.page(function PricingFrontPage(_ctx) {
                   </span>Mixtape chillwave tumeric
                 </p> */
                 }
-                <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
+                {/* <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                   <a href="/">Button</a>
                   <svg
                     fill="none"
@@ -403,7 +403,7 @@ export default define.page(function PricingFrontPage(_ctx) {
                 </button>
                 <p class="text-xs text-gray-500 mt-3">
                   Literally you probably haven't heard of them jean shorts.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

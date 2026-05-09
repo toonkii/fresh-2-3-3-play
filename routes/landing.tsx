@@ -147,7 +147,7 @@ export default define.page(function LandPage(_) {
               <div>
                 <div class="max-w-3xl mx-auto text-center lg:mx-0 lg:text-left">
                   <h1 class="text-4xl text-slate-900 font-bold !leading-tight mb-6 md:text-5xl">
-                    Schedule meetings effortlessly
+                    Network Installation With No Hassle
                   </h1>
                   <p class="text-slate-600 text-lg leading-relaxed">
                     Eliminate back-and-forth emails with our intelligent
@@ -162,14 +162,14 @@ export default define.page(function LandPage(_) {
                       href="#"
                       class="py-2.5 px-4 text-sm rounded-md font-semibold text-white border border-blue-600 bg-blue-600 hover:bg-blue-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                     >
-                      Get Started Free
+                      Send Us An Email
                     </a>
-                    <a
+                    {/* <a
                       href="#"
                       class="py-2.5 px-4 text-slate-900 text-sm font-semibold rounded-md bg-white border border-slate-300 transition-colors hover:bg-gray-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                     >
                       Integrations
-                    </a>
+                    </a> */}
                   </div>
                 </div>
 
@@ -192,7 +192,7 @@ export default define.page(function LandPage(_) {
                     />
                   </div>
                   <div class="text-slate-600 text-base">
-                    <span class="font-semibold">Over 10,000</span>{" "}
+                    <span class="font-semibold">Over 100</span>{" "}
                     Professionals trust us
                   </div>
                 </div>
@@ -200,7 +200,8 @@ export default define.page(function LandPage(_) {
 
               <div class="w-full aspect-[42/33]">
                 <img
-                  src="https://readymadeui.com/images/meeting-img.webp"
+                  src="/img/undraw_control-panel_s0j2.svg"
+                  // src="https://readymadeui.com/images/meeting-img.webp"
                   alt="meeting image"
                   class="w-full h-full object-contain"
                 />
