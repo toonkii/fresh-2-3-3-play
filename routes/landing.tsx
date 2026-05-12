@@ -5,7 +5,8 @@ export default define.page(function LandPage(_) {
     <>
       <main>
         {/* <!-- navbar --> */}
-        {/* <nav
+        {
+          /* <nav
           class="bg-white flex py-2 px-4 md:px-8 border-b border-slate-200 min-h-[68px] sticky top-0 z-20"
           aria-label="Main navigation"
         >
@@ -138,7 +139,8 @@ export default define.page(function LandPage(_) {
               </button>
             </div>
           </div>
-        </nav> */}
+        </nav> */
+        }
 
         {/* <!-- hero section --> */}
         <section class="px-4 mt-12 md:mt-16 md:px-8">
@@ -147,14 +149,27 @@ export default define.page(function LandPage(_) {
               <div>
                 <div class="max-w-3xl mx-auto text-center lg:mx-0 lg:text-left">
                   <h1 class="text-4xl text-slate-900 font-bold !leading-tight mb-6 md:text-5xl">
-                    Network Installation With No Hassle
+                    Network Installation Without Any Hassle
                   </h1>
                   <p class="text-slate-600 text-lg leading-relaxed">
-                    Eliminate back-and-forth emails with our intelligent
-                    scheduling platform. Share your availability, let clients
-                    book instantly, and connect with automatic calendar
-                    integration. Streamline your workflow and focus on what
-                    matters most - your meetings, not managing them.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora quae, id facere facilis perferendis necessitatibus
+                    laudantium asperiores neque soluta fuga, mollitia nam nemo
+                    sunt porro expedita saepe ea. Illo labore asperiores
+                    necessitatibus in excepturi, voluptas reiciendis laboriosam
+                    similique officiis accusantium aut placeat, dolor eveniet
+                    saepe rem incidunt quam ad minus. Est, inventore tempora
+                    laborum ipsam consequuntur eveniet? <br/><br/>Quidem amet aut dolor
+                    deserunt omnis! Suscipit hic rem voluptates dolore nisi eius
+                    eligendi sequi quidem minus eos officia, sapiente dicta
+                    deserunt libero magni illo molestias deleniti distinctio
+                    labore? Illum ex nesciunt sed magnam vel fugit cumque labore
+                    eaque? Exercitationem officiis porro fuga architecto neque
+                    vero dolore molestias nisi voluptatibus quibusdam! Fuga quo
+                    maxime eveniet quod eum, vitae ut assumenda omnis
+                    accusantium animi sunt, ad asperiores itaque deserunt.
+                    Quidem optio dignissimos quisquam! Blanditiis, impedit
+                    exercitationem.
                   </p>
 
                   <div class="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
@@ -164,12 +179,14 @@ export default define.page(function LandPage(_) {
                     >
                       Send Us An Email
                     </a>
-                    {/* <a
+                    {
+                      /* <a
                       href="#"
                       class="py-2.5 px-4 text-slate-900 text-sm font-semibold rounded-md bg-white border border-slate-300 transition-colors hover:bg-gray-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                     >
                       Integrations
-                    </a> */}
+                    </a> */
+                    }
                   </div>
                 </div>
 
@@ -200,7 +217,9 @@ export default define.page(function LandPage(_) {
 
               <div class="w-full aspect-[42/33]">
                 <img
-                  src="/img/undraw_control-panel_s0j2.svg"
+                  src="/img/RJ45-Pinout-T568B.jpg"
+                  // src="/img/compare-fibre-PAOv9-7VBMI-unsplash.jpg"
+                  // src="/img/undraw_control-panel_s0j2.svg"
                   // src="https://readymadeui.com/images/meeting-img.webp"
                   alt="meeting image"
                   class="w-full h-full object-contain"
