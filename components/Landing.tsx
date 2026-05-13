@@ -4,6 +4,7 @@ import { Faq } from "@/components/Faq.tsx";
 import { CallToAction } from "@/components/CallToAction.tsx";
 import { DarkFooter } from "@/components/DarkFooter.tsx";
 import { HeroSection } from "@/components/HeroSection.tsx";
+import { Features } from "@/components/Features.tsx";
 
 export function Landing() {
   return (
@@ -14,6 +15,7 @@ export function Landing() {
 
         <div>
           {/* <!-- Features Section --> */}
+          <Features />
 
           {/* <!-- How It Works Section --> */}
 
