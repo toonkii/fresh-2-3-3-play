@@ -1,3 +1,4 @@
+import { Testimonial } from "@/components/Testimonial.tsx";
 import { define } from "../utils.ts";
 
 export default define.page(function LandPage(_) {

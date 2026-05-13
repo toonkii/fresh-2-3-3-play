@@ -10,7 +10,7 @@ export function MainNavMenu() {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/landing">Landing</a>
+            <a href="/old-landing">Old Front Page</a>
           </li>
           <li>
             <a href="/sample">
