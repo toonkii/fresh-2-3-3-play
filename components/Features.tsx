@@ -5,7 +5,7 @@ export function Features() {
         <div class="max-w-7xl mx-auto">
           <div class="max-w-3xl mx-auto mb-12 md:mb-16 text-center">
             <h2 class="text-3xl font-bold text-slate-900 mb-6 md:text-4xl">
-              Everything you need to schedule with confidence
+              Everything you need to build your business communication network
             </h2>
             <p class="text-base text-slate-600 leading-relaxed">
               Our comprehensive platform offers all the tools you need to
@@ -49,11 +49,13 @@ export function Features() {
 
               <div>
                 <h3 class="text-slate-900 text-lg font-semibold mb-3">
-                  Calendar Integration
+                  Optical Fibre
                 </h3>
                 <p class="text-slate-600 text-base leading-relaxed">
-                  Seamlessly sync with Google, Outlook, Apple, and other
-                  calendar platforms to prevent double-booking.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                  eveniet deleniti accusantium consequuntur, nesciunt deserunt
+                  dolorem possimus, nobis maxime quam qui necessitatibus saepe.
+                  Labore dolores quidem quisquam repudiandae ullam veritatis.
                 </p>
                 <a
                   href="#"
@@ -111,11 +113,14 @@ export function Features() {
 
               <div>
                 <h3 class="text-slate-900 text-lg font-semibold mb-3">
-                  Time Zone Intelligence
+                  Copper Cabling
                 </h3>
                 <p class="text-slate-600 text-base leading-relaxed">
-                  Automatically detect and adjust to client time zones to avoid
-                  scheduling confusion.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Aspernatur, adipisci sequi sunt dolores quia cumque
+                  praesentium quibusdam explicabo deserunt tempora minima
+                  expedita esse quas nihil in inventore magni recusandae
+                  sapiente.
                 </p>
                 <a
                   href="#"
@@ -174,11 +179,13 @@ export function Features() {
 
               <div>
                 <h3 class="text-slate-900 text-lg font-semibold mb-3">
-                  Video Meeting Links
+                  Equipment
                 </h3>
                 <p class="text-slate-600 text-base leading-relaxed">
-                  Auto-generate Zoom, Teams, or Google Meet links for each
-                  scheduled meeting.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
+                  ipsam eligendi quia amet officiis nobis enim? Sit recusandae
+                  ex in mollitia. Cumque expedita eligendi sed quibusdam? Minima
+                  eius necessitatibus harum.
                 </p>
                 <a
                   href="#"
@@ -220,11 +227,13 @@ export function Features() {
 
               <div>
                 <h3 class="text-slate-900 text-lg font-semibold mb-3">
-                  Smart Reminders
+                  Ongoing Support
                 </h3>
                 <p class="text-slate-600 text-base leading-relaxed">
-                  Automated email and SMS reminders to reduce no-shows by up to
-                  80%.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                  libero dolore enim repudiandae magni fugiat voluptatibus quos
+                  quod consequuntur ipsum labore tenetur eligendi, inventore
+                  sequi optio earum facilis rem nostrum?
                 </p>
                 <a
                   href="#"
@@ -270,11 +279,13 @@ export function Features() {
 
               <div>
                 <h3 class="text-slate-900 text-lg font-semibold mb-3">
-                  Group Scheduling
+                  Greenfield Design
                 </h3>
                 <p class="text-slate-600 text-base leading-relaxed">
-                  Find the perfect time for multiple participants with our
-                  intelligent scheduling algorithm.
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Aliquam deleniti animi quaerat magnam veniam odio inventore,
+                  repudiandae iste rerum omnis, ipsam consequuntur beatae
+                  blanditiis est libero quis quam incidunt minus!
                 </p>
                 <a
                   href="#"
@@ -320,11 +331,13 @@ export function Features() {
 
               <div>
                 <h3 class="text-slate-900 text-lg font-semibold mb-3">
-                  Custom Integrations
+                  Custom Integration
                 </h3>
                 <p class="text-slate-600 text-base leading-relaxed">
-                  Connect with your favorite tools via Zapier, our API, or
-                  native integrations.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                  vel voluptates maiores placeat veritatis, cumque quos id
+                  obcaecati reprehenderit fugiat culpa fugit, sapiente mollitia
+                  distinctio facilis, excepturi illo unde consectetur.
                 </p>
                 <a
                   href="#"

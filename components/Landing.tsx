@@ -10,11 +10,9 @@ export function Landing() {
   return (
     <>
       <main>
-        {/* <!-- hero section --> */}
         <HeroSection />
 
         <div>
-          {/* <!-- Features Section --> */}
           <Features />
 
           {/* <!-- How It Works Section --> */}
@@ -25,14 +23,11 @@ export function Landing() {
 
           <Testimonial />
 
-          {/* <!-- FAQ section --> */}
           <Faq />
 
-          {/* <!-- CTA Section --> */}
           <CallToAction />
         </div>
 
-        {/* <!-- footer section --> */}
         <DarkFooter />
       </main>
     </>

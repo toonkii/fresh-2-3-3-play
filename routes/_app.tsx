@@ -7,7 +7,7 @@ export default define.page(function App({ Component }) {
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>DaisyUI Fresh2</title>
+        <title>Sidereal 365 Inc</title>
       </head>
       <body class="container mx-auto h-screen">
         <Component />
