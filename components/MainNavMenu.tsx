@@ -5,7 +5,7 @@ export function MainNavMenu() {
         <a class="btn btn-ghost text-xl" href="/">Sidereal 365 Inc</a>
       </div>
       <div class="flex-none">
-        <ul class="menu menu-horizontal px-1">
+        {/* <ul class="menu menu-horizontal px-1">
           <li>
             <a href="/">Home</a>
           </li>
@@ -41,7 +41,7 @@ export function MainNavMenu() {
           <li>
             <a href="/about">About Us</a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
