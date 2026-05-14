@@ -23,7 +23,7 @@ export function MainNavMenu() {
           {/* <li>
             <a href="/pricing">Pricing</a>
           </li> */}
-          <li>
+            {/*           <li>
             <a href="/typography">Typography</a>
           </li>
           <li>
@@ -34,10 +34,10 @@ export function MainNavMenu() {
           </li>
           <li>
             <a href="/gallery">Gallery</a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a href="/blendful">Blendful</a>
-          </li>
+          </li> */}
           <li>
             <a href="/project">Projects</a>
           </li>
