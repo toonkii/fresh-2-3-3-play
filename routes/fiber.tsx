@@ -64,7 +64,7 @@ export default define.page(function FiberPage(_) {
                   <ul class="max-w-md space-y-1 text-body list-inside">
                     <li class="flex items-center">
                       <svg
-                        class="w-4 h-4 text-fg-success me-1.5 shrink-0"
+                        class="w-4 h-4 text-fg-success me-1.5 shrink-0 text-green-600"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -85,7 +85,7 @@ export default define.page(function FiberPage(_) {
                     </li>
                     <li class="flex items-center">
                       <svg
-                        class="w-4 h-4 text-body me-1.5 shrink-0"
+                        class="w-4 h-4 text-body me-1.5 shrink-0 text-green-600"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -162,7 +162,7 @@ export default define.page(function FiberPage(_) {
                   <ul class="max-w-md space-y-1 text-body list-inside">
                     <li class="flex items-center">
                       <svg
-                        class="w-4 h-4 text-fg-success me-1.5 shrink-0"
+                        class="w-4 h-4 text-fg-success me-1.5 shrink-0 text-green-600"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -184,7 +184,7 @@ export default define.page(function FiberPage(_) {
                     </li>
                     <li class="flex items-center">
                       <svg
-                        class="w-4 h-4 text-body me-1.5 shrink-0"
+                        class="w-4 h-4 text-body me-1.5 shrink-0 text-green-600"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -226,7 +226,7 @@ export default define.page(function FiberPage(_) {
                   <ul class="max-w-md space-y-1 text-body list-inside">
                     <li class="flex items-center">
                       <svg
-                        class="w-4 h-4 text-fg-success me-1.5 shrink-0"
+                        class="w-4 h-4 text-fg-success me-1.5 shrink-0 text-green-600"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -247,7 +247,7 @@ export default define.page(function FiberPage(_) {
                     </li>
                     <li class="flex items-center">
                       <svg
-                        class="w-4 h-4 text-body me-1.5 shrink-0"
+                        class="w-4 h-4 text-body me-1.5 shrink-0 text-green-600"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -306,7 +306,7 @@ export default define.page(function FiberPage(_) {
                   <ul class="max-w-md space-y-1 text-body list-inside">
                     <li class="flex items-center">
                       <svg
-                        class="w-4 h-4 text-fg-success me-1.5 shrink-0"
+                        class="w-4 h-4 text-fg-success me-1.5 shrink-0 text-green-600"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -326,7 +326,7 @@ export default define.page(function FiberPage(_) {
                     </li>
                     <li class="flex items-center">
                       <svg
-                        class="w-4 h-4 text-body me-1.5 shrink-0"
+                        class="w-4 h-4 text-body me-1.5 shrink-0 text-green-600"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -346,7 +346,7 @@ export default define.page(function FiberPage(_) {
                     </li>
                     <li class="flex items-center">
                       <svg
-                        class="w-4 h-4 text-body me-1.5 shrink-0"
+                        class="w-4 h-4 text-body me-1.5 shrink-0 text-green-600"
                         aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
