@@ -29,6 +29,12 @@ export function Features() {
 
           <div class="grid gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-3">
             <div class="bg-gray-50 text-center border border-slate-200 rounded-lg px-6 py-14">
+              {
+                /* <div
+                class="w-14 h-14 bg-blue-100 flex items-center justify-center mb-6 mx-auto rounded-full"
+                aria-hidden="true"
+              > */
+              }
               <div
                 class="w-14 h-14 bg-blue-100 flex items-center justify-center mb-6 mx-auto rounded-full"
                 aria-hidden="true"
@@ -68,18 +74,24 @@ export function Features() {
                 <p class="text-slate-600 text-base leading-relaxed">
                   Before a single cable is run, a thorough evaluation of the
                   space and the user's needs is conducted.
-
-                  Requirements Gathering: Determining how many devices need
-                  connection, what kind of bandwidth is required (e.g., video
-                  streaming vs. basic emails), and what the budget looks like.
-
-                  Physical Blueprinting: Walking the building to identify
-                  architectural barriers (like thick concrete walls or metal
-                  beams) that could block Wi-Fi signals.
-
-                  ISP Coordination: Figuring out where the Internet Service
-                  Provider (ISP) brings the main internet line into the building
-                  (the demarcation point).
+                  <ol class="list-disc list-outside pl-5">
+                    <li>
+                      Requirements Gathering: Determining how many devices need
+                      connection, what kind of bandwidth is required (e.g.,
+                      video streaming vs. basic emails), and what the budget
+                      looks like.
+                    </li>
+                    <li>
+                      Physical Blueprinting: Walking the building to identify
+                      architectural barriers (like thick concrete walls or metal
+                      beams) that could block Wi-Fi signals.
+                    </li>
+                    <li>
+                      ISP Coordination: Figuring out where the Internet Service
+                      Provider (ISP) brings the main internet line into the
+                      building (the demarcation point).
+                    </li>
+                  </ol>
                 </p>
                 <a
                   href="#"
@@ -143,14 +155,18 @@ export function Features() {
                   Next, a blueprint of the network architecture is created. This
                   includes choosing the right topology (how devices are
                   arranged) and selecting the hardware.
-
-                  Hardware Selection: Choosing the appropriate routers,
-                  switches, firewalls, and Access Points (APs) based on the
-                  required scale.
-
-                  Mapping: Deciding the exact placement of the central network
-                  closet, server racks, and where wireless access points will be
-                  mounted for optimal coverage.
+                  <ol class="list-disc list-outside pl-5">
+                    <li>
+                      Hardware Selection: Choosing the appropriate routers,
+                      switches, firewalls, and Access Points (APs) based on the
+                      required scale.
+                    </li>
+                    <li>
+                      Mapping: Deciding the exact placement of the central
+                      network closet, server racks, and where wireless access
+                      points will be mounted for optimal coverage.
+                    </li>
+                  </ol>
                 </p>
                 <a
                   href="#"
@@ -215,17 +231,23 @@ export function Features() {
                   If a network doesn't have a solid physical foundation,
                   everything else fails. This phase involves the physical
                   installation of the wiring.
-
-                  Running the Cables: Pulling copper (like Cat6 or Cat6a) or
-                  fiber-optic cables through walls, ceilings, or conduits.
-
-                  Termination and Patching: Connecting the ends of these cables
-                  to RJ45 jacks in the walls and organizing the other ends
-                  neatly into patch panels inside a central server rack.
-
-                  Cable Management: Using zip ties, Velcro, and labels so that
-                  any future troubleshooting is easy and clean, avoiding a
-                  "spaghetti mess" of wires.
+                  <ol class="list-disc list-outside pl-5">
+                    <li>
+                      Running the Cables: Pulling copper (like Cat6 or Cat6a) or
+                      fiber-optic cables through walls, ceilings, or conduits.
+                    </li>
+                    <li>
+                      Termination and Patching: Connecting the ends of these
+                      cables to RJ45 jacks in the walls and organizing the other
+                      ends neatly into patch panels inside a central server
+                      rack.
+                    </li>
+                    <li>
+                      Cable Management: Using zip ties, Velcro, and labels so
+                      that any future troubleshooting is easy and clean,
+                      avoiding a "spaghetti mess" of wires.
+                    </li>
+                  </ol>
                 </p>
                 <a
                   href="#"
@@ -272,14 +294,18 @@ export function Features() {
                 <p class="text-slate-600 text-base leading-relaxed">
                   Once the wiring is in place, the physical "brains" of the
                   network are installed.
-
-                  Rack Mounting: Securing the UPS (uninterruptible power
-                  supply), switches, routers, and firewalls into the server
-                  rack.
-
-                  Access Point Deployment: Mounting Wi-Fi access points to
-                  ceilings or high walls to ensure maximum, unobstructed
-                  wireless coverage throughout the building.
+                  <ol class="list-disc list-outside pl-5">
+                    <li>
+                      Rack Mounting: Securing the UPS (uninterruptible power
+                      supply), switches, routers, and firewalls into the server
+                      rack.
+                    </li>
+                    <li>
+                      Access Point Deployment: Mounting Wi-Fi access points to
+                      ceilings or high walls to ensure maximum, unobstructed
+                      wireless coverage throughout the building.
+                    </li>
+                  </ol>
                 </p>
                 <a
                   href="#"
@@ -330,19 +356,25 @@ export function Features() {
                 <p class="text-slate-600 text-base leading-relaxed">
                   With the hardware physically connected, the network must be
                   programmed and secured.
-
-                  IP Addressing & VLANs: Setting up how devices get their IP
-                  addresses (DHCP) and dividing the network into Virtual Local
-                  Area Networks (VLANs). For example, keeping corporate data on
-                  one network and creating a separate, isolated network for
-                  guests.
-
-                  Security & Firewalls: Configuring the firewall to block
-                  malicious traffic, setting up VPNs for secure remote access,
-                  and establishing strong Wi-Fi encryption (like WPA3).
-
-                  Routing Protocols: Ensuring data takes the fastest, most
-                  efficient path from device to destination.
+                  <ol class="list-disc list-outside pl-5">
+                    <li>
+                      IP Addressing & VLANs: Setting up how devices get their IP
+                      addresses (DHCP) and dividing the network into Virtual
+                      Local Area Networks (VLANs). For example, keeping
+                      corporate data on one network and creating a separate,
+                      isolated network for guests.
+                    </li>
+                    <li>
+                      Security & Firewalls: Configuring the firewall to block
+                      malicious traffic, setting up VPNs for secure remote
+                      access, and establishing strong Wi-Fi encryption (like
+                      WPA3).
+                    </li>
+                    <li>
+                      Routing Protocols: Ensuring data takes the fastest, most
+                      efficient path from device to destination.
+                    </li>
+                  </ol>
                 </p>
                 <a
                   href="#"
@@ -393,18 +425,23 @@ export function Features() {
                 <p class="text-slate-600 text-base leading-relaxed">
                   Before the project is considered complete, the network is put
                   through its paces.
-
-                  Cable Testing: Using specialized tools to certify that every
-                  single ethernet cable is transmitting data at its maximum
-                  rated speed without interference.
-
-                  Speed & Coverage Checks: Walking the premises to test Wi-Fi
-                  signal strength and internet download/upload speeds in every
-                  corner.
-
-                  Documentation: Handing over a complete packet to the owner,
-                  including a network map, passwords, device serial numbers, and
-                  warranty information.
+                  <ol class="list-disc list-outside pl-5">
+                    <li>
+                      Cable Testing: Using specialized tools to certify that
+                      every single ethernet cable is transmitting data at its
+                      maximum rated speed without interference.
+                    </li>
+                    <li>
+                      Speed & Coverage Checks: Walking the premises to test
+                      Wi-Fi signal strength and internet download/upload speeds
+                      in every corner.
+                    </li>
+                    <li>
+                      Documentation: Handing over a complete packet to the
+                      owner, including a network map, passwords, device serial
+                      numbers, and warranty information.
+                    </li>
+                  </ol>
                 </p>
                 <a
                   href="#"
