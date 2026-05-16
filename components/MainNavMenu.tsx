@@ -39,6 +39,9 @@ export function MainNavMenu() {
             <a href="/blendful">Blendful</a>
           </li> */}
           <li>
+            <a href="/telephone">Telephony</a>
+          </li>
+          <li>
             <a href="/project">Projects</a>
           </li>
           <li>
