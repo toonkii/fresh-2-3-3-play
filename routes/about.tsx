@@ -1,13 +1,13 @@
-import { Footer } from "@/components/Footer.tsx";
+import { DarkFooter } from "@/components/DarkFooter.tsx";
 import { define } from "../utils.ts";
 
 export default define.page(async function AboutUsPage(ctx) {
-  const cat: Response = await fetch('https://api.ai-cats.net/v1/cat');
+  const cat: Response = await fetch("https://api.ai-cats.net/v1/cat");
   // console.log('cat', cat);
 
   // const birthday = Temporal.PlainDate.from("2026-10-04");
   // console.log('Birthday', birthday);
-  
+
   return (
     <div>
       <h1 class="text-2xl/7 font-bold sm:truncate sm:text-3xl sm:tracking-tight">
@@ -21,10 +21,11 @@ export default define.page(async function AboutUsPage(ctx) {
         </div>
 
         <div class="about-text">
-          
-          {/* <button class="btn btn-primary m-4" >
+          {
+            /* <button class="btn btn-primary m-4" >
             Dark Theme
-          </button> */}
+          </button> */
+          }
 
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa
@@ -71,9 +72,11 @@ export default define.page(async function AboutUsPage(ctx) {
         </div>
       </div>
 
-      {/* <h1 class="text-2xl/7 font-bold sm:truncate sm:text-3xl sm:tracking-tight">
+      {
+        /* <h1 class="text-2xl/7 font-bold sm:truncate sm:text-3xl sm:tracking-tight">
         Birthday {birthday}
-      </h1> */}
+      </h1> */
+      }
 
       <div>
         <button class="btn btn-primary m-4" onclick="my_modal_1.showModal()">
@@ -94,7 +97,6 @@ export default define.page(async function AboutUsPage(ctx) {
         </dialog>
       </div>
 
-      <Footer />
     </div>
   );
 });

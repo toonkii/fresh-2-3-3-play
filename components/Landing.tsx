@@ -27,8 +27,6 @@ export function Landing() {
 
           <CallToAction />
         </div>
-
-        <DarkFooter />
       </main>
     </>
   );
