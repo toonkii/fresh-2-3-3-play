@@ -1,6 +1,7 @@
 export function DarkFooter() {
   return (
     <>
+    <div class="pt-8">
       <footer class="bg-white dark:bg-neutral-900 pt-16 pb-8 px-4 md:px-8">
         <div class="max-w-7xl mx-auto">
           <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-6 sm:gap-x-8">
@@ -198,6 +199,7 @@ export function DarkFooter() {
           </div>
         </div>
       </footer>
+      </div>
     </>
   );
 }
