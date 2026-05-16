@@ -5,11 +5,25 @@ export function Features() {
         <div class="max-w-7xl mx-auto">
           <div class="max-w-3xl mx-auto mb-12 md:mb-16 text-center">
             <h2 class="text-3xl font-bold text-slate-900 mb-6 md:text-4xl">
-              Everything you need to build your business communication network
+              Network Installation
             </h2>
             <p class="text-base text-slate-600 leading-relaxed">
-              Our comprehensive platform offers all the tools you need to
-              streamline your scheduling process and boost productivity.
+              Network installation is the process of building the physical and
+              digital infrastructure that allows devices—like computers,
+              servers, smartphones, and smart devices—to communicate with each
+              other and the internet.
+            </p>
+            <br />
+            <p class="text-base text-slate-600 leading-relaxed">
+              Whether it is for a small home, a booming startup, or a massive
+              corporate enterprise, a professional network installation follows
+              a structured, step-by-step process to ensure data flows quickly,
+              securely, and without interruption.
+            </p>
+            <br />
+            <p class="text-base text-slate-600 leading-relaxed">
+              Here is exactly what happens during a professional network
+              installation:
             </p>
           </div>
 
@@ -49,19 +63,29 @@ export function Features() {
 
               <div>
                 <h3 class="text-slate-900 text-lg font-semibold mb-3">
-                  Optical Fibre
+                  1. Assessment and Site Survey
                 </h3>
                 <p class="text-slate-600 text-base leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-                  eveniet deleniti accusantium consequuntur, nesciunt deserunt
-                  dolorem possimus, nobis maxime quam qui necessitatibus saepe.
-                  Labore dolores quidem quisquam repudiandae ullam veritatis.
+                  Before a single cable is run, a thorough evaluation of the
+                  space and the user's needs is conducted.
+
+                  Requirements Gathering: Determining how many devices need
+                  connection, what kind of bandwidth is required (e.g., video
+                  streaming vs. basic emails), and what the budget looks like.
+
+                  Physical Blueprinting: Walking the building to identify
+                  architectural barriers (like thick concrete walls or metal
+                  beams) that could block Wi-Fi signals.
+
+                  ISP Coordination: Figuring out where the Internet Service
+                  Provider (ISP) brings the main internet line into the building
+                  (the demarcation point).
                 </p>
                 <a
                   href="#"
                   class="text-blue-700 font-medium inline-flex items-center text-sm mt-6 hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded"
                 >
-                  Learn more{" "}
+                  {/* Learn more{" "} */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="size-3.5 ml-2 overflow-visible fill-blue-700"
@@ -113,20 +137,26 @@ export function Features() {
 
               <div>
                 <h3 class="text-slate-900 text-lg font-semibold mb-3">
-                  Copper Cabling
+                  2. Network Design & Topology
                 </h3>
                 <p class="text-slate-600 text-base leading-relaxed">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Aspernatur, adipisci sequi sunt dolores quia cumque
-                  praesentium quibusdam explicabo deserunt tempora minima
-                  expedita esse quas nihil in inventore magni recusandae
-                  sapiente.
+                  Next, a blueprint of the network architecture is created. This
+                  includes choosing the right topology (how devices are
+                  arranged) and selecting the hardware.
+
+                  Hardware Selection: Choosing the appropriate routers,
+                  switches, firewalls, and Access Points (APs) based on the
+                  required scale.
+
+                  Mapping: Deciding the exact placement of the central network
+                  closet, server racks, and where wireless access points will be
+                  mounted for optimal coverage.
                 </p>
                 <a
                   href="#"
                   class="text-blue-700 font-medium inline-flex items-center text-sm mt-6 hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded"
                 >
-                  Learn more{" "}
+                  {/* Learn more{" "} */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="size-3.5 ml-2 overflow-visible fill-blue-700"
@@ -179,19 +209,29 @@ export function Features() {
 
               <div>
                 <h3 class="text-slate-900 text-lg font-semibold mb-3">
-                  Equipment
+                  3. Cable Infrastructure (The Backbone)
                 </h3>
                 <p class="text-slate-600 text-base leading-relaxed">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
-                  ipsam eligendi quia amet officiis nobis enim? Sit recusandae
-                  ex in mollitia. Cumque expedita eligendi sed quibusdam? Minima
-                  eius necessitatibus harum.
+                  If a network doesn't have a solid physical foundation,
+                  everything else fails. This phase involves the physical
+                  installation of the wiring.
+
+                  Running the Cables: Pulling copper (like Cat6 or Cat6a) or
+                  fiber-optic cables through walls, ceilings, or conduits.
+
+                  Termination and Patching: Connecting the ends of these cables
+                  to RJ45 jacks in the walls and organizing the other ends
+                  neatly into patch panels inside a central server rack.
+
+                  Cable Management: Using zip ties, Velcro, and labels so that
+                  any future troubleshooting is easy and clean, avoiding a
+                  "spaghetti mess" of wires.
                 </p>
                 <a
                   href="#"
                   class="text-blue-700 font-medium inline-flex items-center text-sm mt-6 hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded"
                 >
-                  Learn more{" "}
+                  {/* Learn more{" "} */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="size-3.5 ml-2 overflow-visible fill-blue-700"
@@ -227,19 +267,25 @@ export function Features() {
 
               <div>
                 <h3 class="text-slate-900 text-lg font-semibold mb-3">
-                  Ongoing Support
+                  4. Hardware Installation & Mounting
                 </h3>
                 <p class="text-slate-600 text-base leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                  libero dolore enim repudiandae magni fugiat voluptatibus quos
-                  quod consequuntur ipsum labore tenetur eligendi, inventore
-                  sequi optio earum facilis rem nostrum?
+                  Once the wiring is in place, the physical "brains" of the
+                  network are installed.
+
+                  Rack Mounting: Securing the UPS (uninterruptible power
+                  supply), switches, routers, and firewalls into the server
+                  rack.
+
+                  Access Point Deployment: Mounting Wi-Fi access points to
+                  ceilings or high walls to ensure maximum, unobstructed
+                  wireless coverage throughout the building.
                 </p>
                 <a
                   href="#"
                   class="text-blue-700 font-medium inline-flex items-center text-sm mt-6 hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded"
                 >
-                  Learn more{" "}
+                  {/* Learn more{" "} */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="size-3.5 ml-2 overflow-visible fill-blue-700"
@@ -279,19 +325,30 @@ export function Features() {
 
               <div>
                 <h3 class="text-slate-900 text-lg font-semibold mb-3">
-                  Greenfield Design
+                  5. Configuration & Software Setup
                 </h3>
                 <p class="text-slate-600 text-base leading-relaxed">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Aliquam deleniti animi quaerat magnam veniam odio inventore,
-                  repudiandae iste rerum omnis, ipsam consequuntur beatae
-                  blanditiis est libero quis quam incidunt minus!
+                  With the hardware physically connected, the network must be
+                  programmed and secured.
+
+                  IP Addressing & VLANs: Setting up how devices get their IP
+                  addresses (DHCP) and dividing the network into Virtual Local
+                  Area Networks (VLANs). For example, keeping corporate data on
+                  one network and creating a separate, isolated network for
+                  guests.
+
+                  Security & Firewalls: Configuring the firewall to block
+                  malicious traffic, setting up VPNs for secure remote access,
+                  and establishing strong Wi-Fi encryption (like WPA3).
+
+                  Routing Protocols: Ensuring data takes the fastest, most
+                  efficient path from device to destination.
                 </p>
                 <a
                   href="#"
                   class="text-blue-700 font-medium inline-flex items-center text-sm mt-6 hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded"
                 >
-                  Learn more{" "}
+                  {/* Learn more{" "} */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="size-3.5 ml-2 overflow-visible fill-blue-700"
@@ -331,19 +388,29 @@ export function Features() {
 
               <div>
                 <h3 class="text-slate-900 text-lg font-semibold mb-3">
-                  Custom Integration
+                  6. Testing, Certification, and Handoff
                 </h3>
                 <p class="text-slate-600 text-base leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-                  vel voluptates maiores placeat veritatis, cumque quos id
-                  obcaecati reprehenderit fugiat culpa fugit, sapiente mollitia
-                  distinctio facilis, excepturi illo unde consectetur.
+                  Before the project is considered complete, the network is put
+                  through its paces.
+
+                  Cable Testing: Using specialized tools to certify that every
+                  single ethernet cable is transmitting data at its maximum
+                  rated speed without interference.
+
+                  Speed & Coverage Checks: Walking the premises to test Wi-Fi
+                  signal strength and internet download/upload speeds in every
+                  corner.
+
+                  Documentation: Handing over a complete packet to the owner,
+                  including a network map, passwords, device serial numbers, and
+                  warranty information.
                 </p>
                 <a
                   href="#"
                   class="text-blue-700 font-medium inline-flex items-center text-sm mt-6 hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded"
                 >
-                  Learn more{" "}
+                  {/* Learn more{" "} */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="size-3.5 ml-2 overflow-visible fill-blue-700"
