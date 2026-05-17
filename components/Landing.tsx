@@ -2,9 +2,9 @@ import { Pricing } from "@/components/Pricing.tsx";
 import { Testimonial } from "@/components/Testimonial.tsx";
 import { Faq } from "@/components/Faq.tsx";
 import { CallToAction } from "@/components/CallToAction.tsx";
-import { DarkFooter } from "@/components/DarkFooter.tsx";
 import { HeroSection } from "@/components/HeroSection.tsx";
 import { Features } from "@/components/Features.tsx";
+import { Team } from "@/components/Team.tsx";
 
 export function Landing() {
   return (
@@ -20,6 +20,8 @@ export function Landing() {
           {/* <!-- Integrations Section --> */}
 
           <Pricing />
+
+          <Team />
 
           <Testimonial />
 
