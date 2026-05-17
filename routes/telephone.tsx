@@ -62,21 +62,11 @@ export default define.page(function TelephonePage(_) {
 
             <p class="mb-4 text-base text-slate-900 leading-relaxed">
             </p>
-            <p class="mb-4 text-base text-slate-900 leading-relaxed">
-            </p>
-            <p class="mb-4 text-base text-slate-900 leading-relaxed">
-            </p>
-            <p class="mb-4 text-base text-slate-900 leading-relaxed">
-            </p>
-            <p class="mb-4 text-base text-slate-900 leading-relaxed">
-            </p>
-            <p class="mb-4 text-base text-slate-900 leading-relaxed">
-            </p>
           </div>
-          <div class="w-full aspect-20/11 -order-1 lg:order-0">
+          <div class="w-full aspect-20/18 -order-1 lg:order-0">
             <img
-              src="https://readymadeui.com/images/kpis-dashboard-img.webp"
-              alt="kpis dashboard"
+              src="\img\pexels-cottonbro-9068371.jpg"
+              alt="man on phone"
               class="rounded-lg object-contain w-full h-full"
             />
           </div>
