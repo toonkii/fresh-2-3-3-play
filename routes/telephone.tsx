@@ -4,14 +4,14 @@ export default define.page(function TelephonePage(_) {
   return (
     <>
       <h1 class="text-2xl/7 font-bold sm:truncate sm:text-3xl sm:tracking-tight">
-        Telephony Services
+        Telephone Services
       </h1>
 
       <section class="mt-6 px-4 md:px-8">
         <div class="grid items-center gap-12 max-w-2xl mx-auto lg:grid-cols-2 lg:max-w-7xl">
           <div>
             <h2 class="text-3xl font-bold mb-6 text-slate-900 md:text-4xl">
-              Discover the Future of IP Telephony
+              Your Journey To IP Telephony
             </h2>
             <p class="mb-4 text-base text-slate-900 leading-relaxed">
               Voip stands for Voice over Internet Protocol. In simple terms, it
