@@ -95,7 +95,7 @@ export default define.page(function ContactPage(_) {
                   <h3 class="text-slate-900 text-lg font-semibold">
                     Chat to us
                   </h3>
-                  {/* <p class="text-lg text-slate-600 mt-1">thomas.clarke@sidereal365.com</p> */}
+                  <p class="text-lg text-slate-600 mt-1">Use email form.</p>
                 </div>
               </div>
 
@@ -208,7 +208,7 @@ export default define.page(function ContactPage(_) {
                 type="submit"
                 class="py-2.5 px-4 text-lg rounded-md font-semibold cursor-pointer text-white border border-blue-600 bg-blue-600 hover:bg-blue-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
               >
-                Send message
+                Send Message
               </button>
             </form>
           </div>
