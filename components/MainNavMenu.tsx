@@ -41,15 +41,15 @@ export function MainNavMenu() {
           <li>
             <a href="/telephone">Telephony</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/project">Projects</a>
-          </li>
+          </li> */}
           <li>
             <a href="/contact">Contact Us</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/about">About Us</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
