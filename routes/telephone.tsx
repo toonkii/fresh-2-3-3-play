@@ -65,7 +65,7 @@ export default define.page(function TelephonePage(_) {
           </div>
           <div class="w-full aspect-20/18 -order-1 lg:order-0">
             <img
-              src="\img\pexels-cottonbro-9068371.jpg"
+              src="/img/pexels-cottonbro-9068371.jpg"
               alt="man on phone"
               class="rounded-lg object-contain w-full h-full"
             />
@@ -75,10 +75,10 @@ export default define.page(function TelephonePage(_) {
 
       <section class="mt-6 px-4 md:px-8">
         <div class="grid items-center gap-12 max-w-2xl mx-auto lg:grid-cols-2 lg:max-w-7xl">
-          <div class="w-full aspect-20/11 -order-1 lg:order-0">
+          <div class="w-full aspect-10/8 -order-1 lg:order-0">
             <img
-              src="https://readymadeui.com/images/kpis-dashboard-img.webp"
-              alt="kpis dashboard"
+              src="/img/pexels-simonptr-33607936.jpg"
+              alt="communication tower"
               class="rounded-lg object-contain w-full h-full"
             />
           </div>
@@ -181,10 +181,10 @@ export default define.page(function TelephonePage(_) {
             <p class="mb-4 text-base text-slate-900 leading-relaxed">
             </p>
           </div>
-          <div class="w-full aspect-20/11 -order-1 lg:order-0">
+          <div class="w-full aspect-10/8 -order-1 lg:order-0">
             <img
-              src="https://readymadeui.com/images/kpis-dashboard-img.webp"
-              alt="kpis dashboard"
+              src="/img/pexels-mikhail-nilov-7682343.jpg"
+              alt="operator"
               class="rounded-lg object-contain w-full h-full"
             />
           </div>
