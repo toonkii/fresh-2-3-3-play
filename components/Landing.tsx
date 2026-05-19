@@ -23,7 +23,7 @@ export function Landing() {
 
           <Team />
 
-          <Testimonial />
+          {/* <Testimonial /> */}
 
           <Faq />
 

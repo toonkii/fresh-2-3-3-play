@@ -19,7 +19,7 @@ export function CallToAction() {
             Start Your Free Trial
           </a> */}
           <a
-            href="#"
+            href="/contact"
             class="py-2.5 px-4 text-white text-sm font-semibold rounded-md bg-transparent border border-white transition-colors hover:bg-white hover:text-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
           >
             Email Us

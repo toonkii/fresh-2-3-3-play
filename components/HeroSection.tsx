@@ -74,7 +74,7 @@ export function HeroSection() {
                 </p>
                 <div class="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
                   <a
-                    href="#"
+                    href="/contact"
                     class="py-2.5 px-4 text-sm rounded-md font-semibold text-white border border-blue-600 bg-blue-600 hover:bg-blue-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                   >
                     Send Us An Email
@@ -121,7 +121,7 @@ export function HeroSection() {
                 // src="/img/compare-fibre-PAOv9-7VBMI-unsplash.jpg"
                 // src="/img/undraw_control-panel_s0j2.svg"
                 // src="https://readymadeui.com/images/meeting-img.webp"
-                alt="meeting image"
+                alt="connected by telecommunications"
                 class="w-full h-full object-contain"
               />
             </div>
