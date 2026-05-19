@@ -133,7 +133,8 @@ export default define.page(function ContactPage(_) {
                   type="text"
                   id="name"
                   name="name"
-                  placeholder="John doe"
+                  placeholder="John Doe"
+                  required
                   class="px-3 py-2.5 text-lg text-slate-900 w-full rounded-md bg-white outline-1 -outline-offset-1 outline-slate-400 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600"
                 />
               </div>
@@ -148,7 +149,8 @@ export default define.page(function ContactPage(_) {
                   type="email"
                   id="email"
                   name="email"
-                  placeholder="john@readymadeui.com"
+                  placeholder="john.doe@example.com"
+                  required
                   class="px-3 py-2.5 text-lg text-slate-900 w-full rounded-md bg-white outline-1 -outline-offset-1 outline-slate-400 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600"
                 />
               </div>
@@ -163,7 +165,8 @@ export default define.page(function ContactPage(_) {
                   type="number"
                   id="phone"
                   name="phone"
-                  placeholder="+11800-259-854"
+                  placeholder="259-8543"
+                  required
                   class="px-3 py-2.5 text-lg text-slate-900 w-full rounded-md bg-white outline-1 -outline-offset-1 outline-slate-400 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600"
                 />
               </div>
@@ -178,7 +181,7 @@ export default define.page(function ContactPage(_) {
                   type="text"
                   id="company"
                   name="company"
-                  placeholder="XYZ pvt. ltd."
+                  placeholder="XYZ Inc."
                   class="px-3 py-2.5 text-lg text-slate-900 w-full rounded-md bg-white outline-1 -outline-offset-1 outline-slate-400 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600"
                 />
               </div>
@@ -195,6 +198,7 @@ export default define.page(function ContactPage(_) {
                   type="text"
                   id="message"
                   name="message"
+                  required
                   class="px-3 py-2.5 text-lg text-slate-900 w-full rounded-md bg-white outline-1 -outline-offset-1 outline-slate-400 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600"
                 >
                 </textarea>
