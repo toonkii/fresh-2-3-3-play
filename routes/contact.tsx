@@ -95,7 +95,7 @@ export default define.page(function ContactPage(_) {
                   <h3 class="text-slate-900 text-lg font-semibold">
                     Chat to us
                   </h3>
-                  <p class="text-lg text-slate-600 mt-1">thomas.clarke@sidereal365.com</p>
+                  {/* <p class="text-lg text-slate-600 mt-1">thomas.clarke@sidereal365.com</p> */}
                 </div>
               </div>
 
