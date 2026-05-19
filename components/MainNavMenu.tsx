@@ -10,6 +10,9 @@ export function MainNavMenu() {
             <a href="/">Home</a>
           </li>
           <li>
+            <a href="/services">Services</a>
+          </li>
+          <li>
             <a href="/fiber">Fiber Optic Installation</a>
           </li>
           {/* <li>
