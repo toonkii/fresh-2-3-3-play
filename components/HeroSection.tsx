@@ -115,9 +115,9 @@ export function HeroSection() {
               </div>
             </div>
 
-            <div class="w-full aspect-[42/33]">
+            <div class="w-full aspect-42/33">
               <img
-                src="/img/RJ45-Pinout-T568B.jpg"
+                src="/img/pexels-snsn-36786617.jpg"
                 // src="/img/compare-fibre-PAOv9-7VBMI-unsplash.jpg"
                 // src="/img/undraw_control-panel_s0j2.svg"
                 // src="https://readymadeui.com/images/meeting-img.webp"
