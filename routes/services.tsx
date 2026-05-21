@@ -7,7 +7,7 @@ export default define.page(function ServicesPage(_) {
         Our Services
       </h1>
 
-      <p class="my-4 text-base text-slate-900 leading-relaxed">
+      <p class="my-4 text-base text-slate-900 underline underline-offset-2 leading-relaxed">
         Network
         <ol class="list-disc list-outside pl-5">
           <li>
@@ -28,7 +28,7 @@ export default define.page(function ServicesPage(_) {
         </ol>
       </p>
 
-      <p class="my-4 text-base text-slate-900 leading-relaxed">
+      <p class="my-4 text-base text-slate-900 underline underline-offset-2 leading-relaxed">
         Telephone Equipment
         <ol class="list-disc list-outside pl-5">
           <li>
