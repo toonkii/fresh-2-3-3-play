@@ -60,6 +60,21 @@ export default define.page(function ServicesPage(_) {
           </li>
         </ol>
       </p>
+
+      <p class="my-4 font-bold text-base text-slate-900 leading-relaxed">
+        Security Cameras
+        <ol class="list-disc list-outside pl-5">
+          <li>
+            Design system
+          </li>
+          <li>
+            Source equipment
+          </li>
+          <li>
+            Install
+          </li>
+        </ol>
+      </p>
     </>
   );
 });
