@@ -3,78 +3,90 @@ import { define } from "../utils.ts";
 export default define.page(function ServicesPage(_) {
   return (
     <>
-      <h1 class="text-2xl/7 font-bold sm:truncate sm:text-3xl sm:tracking-tight">
-        Our Services
-      </h1>
+      <section class="mt-6 px-4 md:px-8">
+        <div class="max-w-7xl mx-auto">
+          <div class="max-w-3xl lg:mx-auto mb-12 lg:text-center md:mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-slate-900 md:text-4xl">
+              Our Services
+            </h2>
+            <p class="text-base text-slate-600 leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, veniam assumenda et facilis dolore omnis excepturi
+              voluptas ullam saepe fugit exercitationem, labore laboriosam
+              reprehenderit adipisci, quos tempora deleniti incidunt delectus
+              perferendis asperiores ad.
+            </p>
+          </div>
 
-      <p class="my-4 font-bold text-base text-slate-900 leading-relaxed">
-        Network
-        <ol class="list-disc list-outside pl-5">
-          <li>
-            Network design (fiber/copper/both)
-          </li>
-          <li>
-            Supply equipment
-          </li>
-          <li>
-            Network installation (cabling/equipment)
-          </li>
-          <li>
-            Supply and install wifi access points
-          </li>
-          <li>
-            Testing
-          </li>
-          <li>
-            Monitoring
-          </li>
-        </ol>
-      </p>
+          <div class="grid gap-y-8 gap-x-8 lg:gap-x-0 md:grid-cols-2 lg:grid-cols-3 lg:divide-x lg:divide-slate-300">
+            <div class="lg:px-8">
+              <p class="my-4 font-bold text-base text-slate-900 leading-relaxed">
+                Network
+                <ol class="list-disc list-outside pl-5">
+                  <li>
+                    Network design (fiber/copper/both)
+                  </li>
+                  <li>
+                    Supply equipment
+                  </li>
+                  <li>
+                    Network installation (cabling/equipment)
+                  </li>
+                  <li>
+                    Supply and install wifi access points
+                  </li>
+                  <li>
+                    Testing
+                  </li>
+                  <li>
+                    Monitoring
+                  </li>
+                </ol>
+              </p>
+            </div>
 
-      <p class="my-4 font-bold text-base text-slate-900 leading-relaxed">
-        Telephone Equipment
-        <ol class="list-disc list-outside pl-5">
-          <li>
-            Supply telephone equipment
-          </li>
-          <li>
-            Install telephone equipment
-          </li>
-          <li>
-            Testing
-          </li>
-        </ol>
-      </p>
+            <div class="lg:px-8">
+              <p class="my-4 font-bold text-base text-slate-900 leading-relaxed">
+                Telephone Equipment
+                <ol class="list-disc list-outside pl-5">
+                  <li>
+                    Supply telephone equipment
+                  </li>
+                  <li>
+                    Install telephone equipment
+                  </li>
+                  <li>
+                    Testing
+                  </li>
+                  <li>
+                    Ongoing support
+                  </li>
+                </ol>
+              </p>
+            </div>
 
-      <p class="my-4 font-bold text-base text-slate-900 leading-relaxed">
-        Training
-        <ol class="list-disc list-outside pl-5">
-          <li>
-            Programming
-          </li>
-          <li>
-            Using relational databases
-          </li>
-          <li>
-            Using Deno
-          </li>
-        </ol>
-      </p>
-
-      <p class="my-4 font-bold text-base text-slate-900 leading-relaxed">
-        Security Cameras
-        <ol class="list-disc list-outside pl-5">
-          <li>
-            Design system
-          </li>
-          <li>
-            Source equipment
-          </li>
-          <li>
-            Install
-          </li>
-        </ol>
-      </p>
+            <div class="lg:px-8">
+              <p class="my-4 font-bold text-base text-slate-900 leading-relaxed">
+                Security Cameras
+                <ol class="list-disc list-outside pl-5">
+                  <li>
+                    Design system
+                  </li>
+                  <li>
+                    Source equipment
+                  </li>
+                  <li>
+                    Install
+                  </li>
+                  <li>
+                    Ongoing maintenance and support
+                  </li>
+                </ol>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 });
