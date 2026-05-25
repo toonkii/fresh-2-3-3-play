@@ -10,11 +10,8 @@ export default define.page(function ServicesPage(_) {
               Our Services
             </h2>
             <p class="text-base text-slate-600 leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium, veniam assumenda et facilis dolore omnis excepturi
-              voluptas ullam saepe fugit exercitationem, labore laboriosam
-              reprehenderit adipisci, quos tempora deleniti incidunt delectus
-              perferendis asperiores ad.
+              Below shows the services we offer. As a company we have many years of hands on experience as well
+              as training. Whatever your issues we can find a solution.
             </p>
           </div>
 
