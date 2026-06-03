@@ -31,13 +31,11 @@ export default define.page<typeof handler>(function ContactPage(_) {
   return (
     <>
       <form
-        // action="http://localhost:8888/email"
-        action="https://resend.cyberseainc.com/email"
+        action="http://localhost:8888/email"
+        // action="https://resend.cyberseainc.com/email"
         method="post"
         enctype="application/x-www-form-urlencoded"
       >
-        {/* <form action="http://localhost:8888/email" method="post"> */}
-
         {
           /* <h1 class="text-2xl/7 font-bold sm:truncate sm:text-3xl sm:tracking-tight">
         Contact Us

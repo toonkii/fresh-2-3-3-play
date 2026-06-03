@@ -19,9 +19,10 @@ export function Team() {
             <li class="bg-blue-600 text-center rounded-lg px-6 py-8">
               <div class="w-40 h-40 border-4 border-white shadow-xl inline-block rounded-full overflow-hidden lg:w-48 lg:h-48">
                 <img
-                  src="https://readymadeui.com/team-1.webp"
+                  // src="https://readymadeui.com/team-1.webp"
+                  src="/img/thomas_clarke.jpg"
                   class="w-full h-full"
-                  alt="John Doe"
+                  alt="Thomas Clarke"
                 />
               </div>
               <div class="mt-4 text-center">
