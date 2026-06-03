@@ -6,7 +6,6 @@ export const handler = define.handlers({
     console.log("req", await ctx.req);
     return ctx;
   },
-
   // async POST(ctx) {
   //   const form = await ctx.req.formData();
 
@@ -32,13 +31,12 @@ export default define.page<typeof handler>(function ContactPage(_) {
   return (
     <>
       <form
-        action="http://localhost:8888/email"
+        // action="http://localhost:8888/email"
+        action="https://resend.cyberseainc.com/email"
         method="post"
         enctype="application/x-www-form-urlencoded"
       >
-        {/* <form action="http://localhost:8888/email" method="post" enctype="application/json"> */}
         {/* <form action="http://localhost:8888/email" method="post"> */}
-        {/* <form action="https://resend.cyberseainc.com/email" method="post"> */}
 
         {
           /* <h1 class="text-2xl/7 font-bold sm:truncate sm:text-3xl sm:tracking-tight">
