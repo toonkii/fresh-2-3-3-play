@@ -3,7 +3,7 @@ import { define } from "../utils.ts";
 
 export const handler = define.handlers({
   async GET(ctx) {
-    console.log("req", await ctx.req);
+    // console.log("req", await ctx.req);
     return ctx;
   },
   // async POST(ctx) {
