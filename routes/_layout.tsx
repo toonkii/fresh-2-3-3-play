@@ -5,9 +5,9 @@ import { DarkFooter2 } from "@/components/DarkFooter2.tsx";
 export default function MainLayout({ Component }: PageProps) {
   return (
     <div>
-      {/* <MainNavMenu /> */}
+      <MainNavMenu />
       <Component />
-      {/* <DarkFooter2 /> */}
+      <DarkFooter2 />
     </div>
   );
 }

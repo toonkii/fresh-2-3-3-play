@@ -6,8 +6,8 @@ import { Landing } from "@/components/Landing.tsx";
 export default define.page(async function LandingPage(_ctx) {
   return (
     <>
-      {/* <Landing /> */}
-      < UnderConstruction />
+      <Landing />
+      {/* < UnderConstruction /> */}
     </>
   );
 });
