@@ -2,12 +2,12 @@ import { PageProps } from "fresh";
 import { MainNavMenu } from "../components/MainNavMenu.tsx";
 import { DarkFooter2 } from "@/components/DarkFooter2.tsx";
 
-export default function MenuLayout({ Component }: PageProps) {
+export default function MainLayout({ Component }: PageProps) {
   return (
     <div>
-      <MainNavMenu />
+      {/* <MainNavMenu /> */}
       <Component />
-      <DarkFooter2 />
+      {/* <DarkFooter2 /> */}
     </div>
   );
 }
