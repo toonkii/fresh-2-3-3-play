@@ -21,7 +21,7 @@ export function Landing() {
 
           <Pricing />
 
-          <Team />
+          {/* <Team /> */}
 
           {/* <Testimonial /> */}
 
