@@ -38,6 +38,7 @@
     "npm:@tailwindcss/vite@^4.3.3": "4.3.3_vite@7.3.6",
     "npm:@types/babel__core@^7.20.5": "7.20.5",
     "npm:daisyui@^5.7.9": "5.7.9",
+    "npm:dotenv@^17.4.2": "17.4.2",
     "npm:esbuild-wasm@~0.25.11": "0.25.12",
     "npm:esbuild@0.25.7": "0.25.7",
     "npm:esbuild@~0.25.5": "0.25.12",
@@ -1108,6 +1109,9 @@
     "detect-libc@2.1.2": {
       "integrity": "sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ=="
     },
+    "dotenv@17.4.2": {
+      "integrity": "sha512-nI4U3TottKAcAD9LLud4Cb7b2QztQMUEfHbvhTH09bqXTxnSie8WnjPALV/WMCrJZ6UV/qHJ6L03OqO3LcdYZw=="
+    },
     "electron-to-chromium@1.5.339": {
       "integrity": "sha512-Is+0BBHJ4NrdpAYiperrmp53pLywG/yV/6lIMTAnhxvzj/Cmn5Q/ogSHC6AKe7X+8kPLxxFk0cs5oc/3j/fxIg=="
     },
@@ -1475,6 +1479,7 @@
       "npm:@tailwindcss/vite@^4.3.3",
       "npm:@types/babel__core@^7.20.5",
       "npm:daisyui@^5.7.9",
+      "npm:dotenv@^17.4.2",
       "npm:preact@^10.29.1",
       "npm:tailwindcss@^4.3.3",
       "npm:vite@7"
