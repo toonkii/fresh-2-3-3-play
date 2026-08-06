@@ -15,3 +15,18 @@ deno task dev
 ```
 
 This will watch the project directory and restart as necessary.
+
+# sidereal365.com
+
+## Environment Variables
+
+```
+MODE=under_construction
+```
+Displays an under construction page.
+
+```
+MODE=
+```
+Displays the website.
+
