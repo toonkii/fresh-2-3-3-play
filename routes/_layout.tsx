@@ -12,9 +12,9 @@ export default function MainLayout({ Component }: PageProps) {
 
   return (
     <div>
-      { mode === 'under_construction' ? <div /> : <MainNavMenu /> }
+      {mode === "under_construction" ? <div /> : <MainNavMenu />}
       <Component />
-      <DarkFooter2 />
+      {mode === "under_construction" ? <div /> : <DarkFooter2 />}
     </div>
   );
 }
